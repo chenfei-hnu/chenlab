@@ -51767,7 +51767,7 @@ var tooltip_style_update = injectStylesIntoStyleTag_default()(tooltip_style/* de
 
 ;// CONCATENATED MODULE: ./src/components/BasicLayout/index.less
 // extracted by mini-css-extract-plugin
-/* harmony default export */ const components_BasicLayout = ({"layoutWrap":"index_layoutWrap_zGVnCv","header":"index_header__QXJ3F","links":"index_links_knY_Oj","headerContent":"index_headerContent__i9Ms3","logoContent":"index_logoContent_gmHdjk","logo":"index_logo_ChX7Y7","name":"index_name_yLFXiB","menuWapper":"index_menuWapper_gWIGxz","menu":"index_menu_EJm2xU","content":"index_content_poiYY8","footer":"index_footer_t1qI7H","left":"index_left_xYbRK5","copyRight":"index_copyRight_mlyJJ0","right":"index_right__QXoiL","qrcode":"index_qrcode_Ok2oSN"});
+/* harmony default export */ const components_BasicLayout = ({"layoutWrap":"index_layoutWrap_zGVnCv","header":"index_header__QXJ3F","links":"index_links_knY_Oj","headerContent":"index_headerContent__i9Ms3","logoContent":"index_logoContent_gmHdjk","logo":"index_logo_ChX7Y7","name":"index_name_yLFXiB","menuWapper":"index_menuWapper_gWIGxz","menu":"index_menu_EJm2xU","content":"index_content_poiYY8","footer":"index_footer_t1qI7H","footerWapper":"index_footerWapper_y0fk9d","left":"index_left_xYbRK5","copyRight":"index_copyRight_mlyJJ0","right":"index_right__QXoiL","qrcode":"index_qrcode_Ok2oSN"});
 ;// CONCATENATED MODULE: ./src/components/BasicLayout/SiderMenu.tsx
 
 
@@ -51836,15 +51836,16 @@ function BasicLayout_BasicLayout() {
             react.createElement("div", { className: "site-layout-background" }, verArr(routes) &&
                 routes.map(function (item, i) { return (react.createElement(Route, { key: i.toString(), path: item.path, component: item.component, exact: true })); }))),
         react.createElement(BasicLayout_Footer, { className: components_BasicLayout.footer },
-            react.createElement("div", { className: components_BasicLayout.left },
-                react.createElement("div", { className: components_BasicLayout.links },
-                    react.createElement("b", null, "\u53CB\u60C5\u94FE\u63A5\uFF1A"),
-                    react.createElement("a", { title: "\u6E56\u5357\u5927\u5B66", href: "http://www.hnu.edu.cn/", target: "_blank", rel: "noreferrer" }, "\u6E56\u5357\u5927\u5B66"),
-                    react.createElement("a", { title: "\u6E56\u5357\u5927\u5B66\u56FE\u4E66\u9986", href: "http://lib.hnu.edu.cn/", target: "_blank", rel: "noreferrer" }, "\u6E56\u5357\u5927\u5B66\u56FE\u4E66\u9986"),
-                    react.createElement("a", { title: "\u6E56\u5357\u5927\u5B66\u5916\u56FD\u8BED\u5B66\u9662", href: "http://english.hnu.edu.cn/", target: "_blank", rel: "noreferrer" }, "\u6E56\u5357\u5927\u5B66\u5916\u56FD\u8BED\u5B66\u9662")),
-                react.createElement("div", { className: components_BasicLayout.copyRight }, copyRight)),
-            react.createElement("div", { className: components_BasicLayout.right },
-                react.createElement("div", { className: components_BasicLayout.qrcode })))));
+            react.createElement("div", { className: components_BasicLayout.footerWapper },
+                react.createElement("div", { className: components_BasicLayout.left },
+                    react.createElement("div", { className: components_BasicLayout.links },
+                        react.createElement("b", null, "\u53CB\u60C5\u94FE\u63A5\uFF1A"),
+                        react.createElement("a", { title: "\u6E56\u5357\u5927\u5B66", href: "http://www.hnu.edu.cn/", target: "_blank", rel: "noreferrer" }, "\u6E56\u5357\u5927\u5B66"),
+                        react.createElement("a", { title: "\u6E56\u5357\u5927\u5B66\u56FE\u4E66\u9986", href: "http://lib.hnu.edu.cn/", target: "_blank", rel: "noreferrer" }, "\u6E56\u5357\u5927\u5B66\u56FE\u4E66\u9986"),
+                        react.createElement("a", { title: "\u6E56\u5357\u5927\u5B66\u5916\u56FD\u8BED\u5B66\u9662", href: "http://english.hnu.edu.cn/", target: "_blank", rel: "noreferrer" }, "\u6E56\u5357\u5927\u5B66\u5916\u56FD\u8BED\u5B66\u9662")),
+                    react.createElement("div", { className: components_BasicLayout.copyRight }, copyRight)),
+                react.createElement("div", { className: components_BasicLayout.right },
+                    react.createElement("div", { className: components_BasicLayout.qrcode }))))));
 }
 /* harmony default export */ const src_components_BasicLayout = (BasicLayout_BasicLayout);
 
