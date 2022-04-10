@@ -46,7 +46,10 @@ var _2 = __webpack_require__(1684);
 var _3 = __webpack_require__(1780);
 // EXTERNAL MODULE: ./src/asset/home/4.jpg
 var _4 = __webpack_require__(3182);
+// EXTERNAL MODULE: ./node_modules/react-router-dom/esm/react-router-dom.js + 3 modules
+var react_router_dom = __webpack_require__(8149);
 ;// CONCATENATED MODULE: ./src/pages/Home/index.tsx
+
 
 
 
@@ -77,7 +80,7 @@ function Home_Home() {
             {
                 link: '',
                 title: '欢迎四位客座学生访问课题组',
-                desc: '欢迎四位客座学生访问实验室：邓凯方（湖南师范大学外国语学院 博士生）、陈禹风（山东大学外国语学院 博士生）、张雪颖（爱丁堡大学 硕士生）、季玮程（湖南大学文学院 本科生）访问ChenLab，预祝学有所成。',
+                desc: '欢迎四位客座学生访问实验室：邓凯方（湖南师范大学外国语学院 博士生）、陈禹风（山东大学文学院 博士生）、张雪颖（爱丁堡大学 硕士生）、季玮程（湖南大学文学院 本科生）访问ChenLab，预祝学有所成。',
                 time: '2022-03-26',
             },
             {
@@ -108,7 +111,7 @@ function Home_Home() {
                 react.createElement("div", { className: Home.title },
                     react.createElement("h2", null, "\u65B0\u95FB\u52A8\u6001"),
                     react.createElement("span", { className: Home.more },
-                        react.createElement("a", { href: "/#/xwdt" }, "MORE>>"))),
+                        react.createElement(react_router_dom/* Link */.rU, { to: "/xwdt" }, "MORE>>"))),
                 react.createElement((lib_default()), { className: Home.newWapper },
                     react.createElement("div", { className: Home.news },
                         react.createElement("div", { className: Home.loop },
@@ -130,7 +133,7 @@ function Home_Home() {
                 react.createElement("p", null, "\u9648\u98DE\u4E8E2020\u5E749\u6708\u52A0\u5165\u6E56\u5357\u5927\u5B66\u5916\u56FD\u8BED\u5B66\u9662\uFF0C\u73B0\u4EFB\u6E56\u5357\u5927\u5B66\u5916\u56FD\u8BED\u5B66\u9662\u82F1\u8BED\u7CFB\u6559\u6388\uFF0C\u535A\u58EB\u751F\u5BFC\u5E08\u3001\u535A\u58EB\u540E\u5408\u4F5C\u5BFC\u5E08\u3002\u9999\u6E2F\u7406\u5DE5\u5927\u5B66\u4E2D\u6587\u53CA\u53CC\u8BED\u5B66\u7CFB\u535A\u58EB\uFF1B\u7F8E\u56FD\u660E\u5C3C\u82CF\u8FBE\u5927\u5B66\u8A00\u8BED-\u8BED\u8A00-\u542C\u529B\u79D1\u5B66\u7CFB\u8BBF\u95EE\u5B66\u8005\u3002"),
                 react.createElement("p", null, "\u4E3B\u8981\u7814\u7A76\u65B9\u5411\uFF1A\u5FC3\u7406\u8BED\u8A00\u5B66\u3001\u795E\u7ECF\u8BED\u8A00\u5B66\u3001\u75C5\u7406\u8BED\u8A00\u5B66\u3001\u4E00\u8BED\u53CA\u4E8C\u8BED\u4E60\u5F97\u3002\u5176\u9886\u57DF\u6D89\u53CA\u5FC3\u7406\u58F0\u5B66\u3001\u8BED\u8A00\u79D1\u5B66\u3001\u5927\u8111\u548C\u8BA4\u77E5\u79D1\u5B66\u3002\u6B22\u8FCE\u5BF9\u76F8\u5173\u9886\u57DF\u611F\u5174\u8DA3\u7684\u672C\u79D1\u751F\u3001\u7855\u58EB\u751F\u3001\u535A\u58EB\u751F\u548C\u535A\u58EB\u540E\u52A0\u5165Chen Lab\u3002"),
                 react.createElement("span", null,
-                    react.createElement("a", { href: "yjfx.asp" }, "+ \u67E5\u770B\u66F4\u591A"))))));
+                    react.createElement(react_router_dom/* Link */.rU, { to: "/yjfx" }, "+ \u67E5\u770B\u66F4\u591A"))))));
 }
 var mapStateToProps = function (_a) {
     var common = _a.common;

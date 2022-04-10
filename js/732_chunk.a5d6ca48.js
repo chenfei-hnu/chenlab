@@ -281,7 +281,7 @@ var map = {
 	"./2021-1.jpg": 4952,
 	"./2021-2.jpg": 2097,
 	"./2021-3.jpg": 6828,
-	"./2021-4.jpg": 2177,
+	"./2021-4.jpg": 2988,
 	"./2021-5.jpg": 6815,
 	"./2022-1.jpg": 766,
 	"./icon.jpg": 6472
@@ -333,7 +333,7 @@ module.exports = __webpack_require__.p + "images/2021-3.16fed76e..jpg";
 
 /***/ }),
 
-/***/ 2177:
+/***/ 2988:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
