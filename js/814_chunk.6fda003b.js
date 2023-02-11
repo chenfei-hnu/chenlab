@@ -73,7 +73,7 @@ var total = [
         title: '博士（访问学生）',
         type: '博士生',
         email: '649557411@qq.com',
-        desc: '2022级 湖南师范大学外国语学院 博士生,硕士毕业于湖南师范大学',
+        desc: '2022级 湖南师范大学外国语学院 博士生，硕士毕业于湖南师范大学',
         hobby: '美食、旅游',
     },
     {
@@ -85,20 +85,20 @@ var total = [
         hobby: '球类运动、动漫',
     },
     {
-        name: '郭青青',
+        name: '匡晨',
         title: '硕士生',
         type: '硕士生',
-        email: '1339806101@qq.com',
-        desc: '2019级硕士生，本科毕业于河北师范大学',
-        hobby: '跑步、打球',
+        email: 'kuangchen@hnu.edu.cn',
+        desc: '2020级硕士生（2023级博士生），本科毕业于长沙理工大学',
+        hobby: '看书、旅游',
     },
     {
-        name: '连婧',
+        name: '杨晶晶',
         title: '硕士生',
         type: '硕士生',
-        email: 'lianjinglin@hnu.edu.cn',
-        desc: '2019级硕士生，本科毕业于山西师范大学',
-        hobby: '园艺、交谊舞',
+        email: '2398243643@qq.com',
+        desc: '2022级硕士生，本科毕业于湖南工商大学',
+        hobby: '美食、旅游、音乐',
     },
     {
         name: '邓凤妮',
@@ -165,36 +165,60 @@ var total = [
         hobby: '跑步、美剧',
     },
     {
-        name: '徐鹏',
+        name: '闵滢伊',
         title: '本科生',
         type: '本科生',
-        email: '1052884828@qq.com',
-        desc: '2018级本科生',
-        hobby: '小说、悠悠球',
+        email: 'minyingyi68@163.com',
+        desc: '2022级英语（语言智能实验班）',
+        hobby: '唱歌、文学、写作、朗诵',
     },
     {
-        name: '赵睿',
+        name: '刘润芝',
         title: '本科生',
         type: '本科生',
-        email: '1336177330@qq.com',
-        desc: '2018级本科生',
-        hobby: '台球、摄影',
+        email: '1006801397@qq.com',
+        desc: '2022级英语（语言智能实验班）',
+        hobby: '唱歌、音乐、运动、写作',
     },
     {
-        name: '李珂',
+        name: '孙彤',
         title: '本科生',
         type: '本科生',
-        email: 'mslike628@gmail.com',
-        desc: '2018级本科生',
-        hobby: '音乐剧、舞蹈、美食',
+        email: '2956309031@qq.com',
+        desc: '2022级英语（语言智能实验班）',
+        hobby: '音乐、舞蹈、球类运动',
     },
     {
-        name: '季玮程',
-        title: '本科生（客座学生）',
+        name: '陈建宇',
+        title: '本科生',
         type: '本科生',
-        email: 'jiweicheng@hnu.edu.cn',
-        desc: '2018级 湖南大学文学院 本科生',
-        hobby: '篮球、写作、旅行',
+        email: '2512943510@qq.com',
+        desc: '2021级本科生',
+        hobby: '旅游、美食',
+    },
+    {
+        name: '刘琛琛',
+        title: '本科生',
+        type: '本科生',
+        email: '1779388498@qq.com',
+        desc: '2021级本科生',
+        hobby: '文学、旅游',
+    },
+    {
+        name: '姜雨辰',
+        title: '本科生',
+        type: '本科生',
+        email: 'Kalenlululu@qq.com',
+        desc: '2019级本科生，2023级直博生',
+        hobby: '音乐、书法',
+    },
+    {
+        name: '聂煜妍',
+        title: '本科生',
+        type: '本科生',
+        email: 'nieyuyan1204@163.com',
+        desc: '2019级湖南师范大学本科生，2023级硕士生',
+        hobby: '手账、电影、美剧',
     },
     {
         name: '张中正',
@@ -278,6 +302,57 @@ var total = [
         hobby: '心理学、烘焙、摄影',
         to: '爱丁堡大学',
     },
+    {
+        name: '徐鹏',
+        title: '毕业生',
+        type: '毕业生',
+        email: '1052884828@qq.com',
+        desc: '2018级本科生',
+        hobby: '小说、悠悠球',
+        to: '湖南大学攻读硕士',
+    },
+    {
+        name: '赵睿',
+        title: '毕业生',
+        type: '毕业生',
+        email: '1336177330@qq.com',
+        desc: '2018级本科生',
+        hobby: '台球、摄影',
+    },
+    {
+        name: '李珂',
+        title: '毕业生',
+        type: '毕业生',
+        email: 'mslike628@gmail.com',
+        desc: '2018级本科生',
+        hobby: '音乐剧、舞蹈、美食',
+    },
+    {
+        name: '季玮程',
+        title: '毕业生',
+        type: '毕业生',
+        email: 'jiweicheng@hnu.edu.cn',
+        desc: '2018级 湖南大学文学院 本科生',
+        hobby: '篮球、写作、旅行',
+        to: '武汉大学攻读硕士',
+    },
+    {
+        name: '连婧',
+        title: '毕业生',
+        type: '毕业生',
+        email: 'lianjinglin@hnu.edu.cn',
+        desc: '2019级硕士生，本科毕业于山西师范大学',
+        hobby: '园艺、交谊舞',
+    },
+    {
+        name: '郭青青',
+        title: '毕业生',
+        type: '毕业生',
+        email: '1339806101@qq.com',
+        desc: '2019级硕士生，本科毕业于河北师范大学',
+        hobby: '跑步、打球',
+        to: '河北某初中执教',
+    },
 ];
 var options = [
     {
@@ -358,8 +433,13 @@ var mapStateToProps = function (_a) {
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var map = {
+	"./刘润芝.jpg": 5458,
+	"./刘琛琛.jpg": 9885,
+	"./匡晨.jpg": 3623,
 	"./吕佳.jpg": 5896,
 	"./吴诗韵.jpg": 3194,
+	"./姜雨辰.jpg": 3913,
+	"./孙彤.jpg": 5616,
 	"./季玮程.jpg": 5009,
 	"./张中正.jpg": 5671,
 	"./张依宁.jpg": 1038,
@@ -373,8 +453,10 @@ var map = {
 	"./李泽娆.jpg": 3904,
 	"./李珂.jpg": 6297,
 	"./杨宇.jpg": 3396,
+	"./杨晶晶.jpg": 7132,
 	"./王国宇.jpg": 5444,
 	"./王瑾.jpg": 5432,
+	"./聂煜妍.jpg": 2336,
 	"./艾雁.jpg": 8649,
 	"./董龙杰.jpg": 6276,
 	"./赵睿.jpg": 7620,
@@ -383,8 +465,10 @@ var map = {
 	"./邓凯方.jpg": 4307,
 	"./郭承禹.jpg": 9428,
 	"./郭青青.jpg": 3997,
+	"./闵滢伊.jpg": 2734,
 	"./阎锦婷.jpg": 2313,
 	"./陈子龙.jpg": 9978,
+	"./陈建宇.jpg": 9810,
 	"./陈淑瑞.jpg": 1125,
 	"./陈禹风.jpg": 2551,
 	"./陈飞.jpg": 7645
@@ -412,6 +496,30 @@ webpackContext.id = 9616;
 
 /***/ }),
 
+/***/ 5458:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "images/刘润芝.08408811..jpg";
+
+/***/ }),
+
+/***/ 9885:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "images/刘琛琛.03b1c461..jpg";
+
+/***/ }),
+
+/***/ 3623:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "images/匡晨.43949492..jpg";
+
+/***/ }),
+
 /***/ 5896:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -425,6 +533,22 @@ module.exports = __webpack_require__.p + "images/吕佳.9b13bd57..jpg";
 
 "use strict";
 module.exports = __webpack_require__.p + "images/吴诗韵.f0ef74bf..jpg";
+
+/***/ }),
+
+/***/ 3913:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "images/姜雨辰.07045044..jpg";
+
+/***/ }),
+
+/***/ 5616:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "images/孙彤.02bfd953..jpg";
 
 /***/ }),
 
@@ -532,6 +656,14 @@ module.exports = __webpack_require__.p + "images/杨宇.e60e8f1c..jpg";
 
 /***/ }),
 
+/***/ 7132:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "images/杨晶晶.4ed75f36..jpg";
+
+/***/ }),
+
 /***/ 5444:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -545,6 +677,14 @@ module.exports = __webpack_require__.p + "images/王国宇.677b921c..jpg";
 
 "use strict";
 module.exports = __webpack_require__.p + "images/王瑾.b0c2bbd7..jpg";
+
+/***/ }),
+
+/***/ 2336:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "images/聂煜妍.e07ff4b0..jpg";
 
 /***/ }),
 
@@ -612,6 +752,14 @@ module.exports = __webpack_require__.p + "images/郭青青.ae78ec0c..jpg";
 
 /***/ }),
 
+/***/ 2734:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "images/闵滢伊.20d206e2..jpg";
+
+/***/ }),
+
 /***/ 2313:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
@@ -625,6 +773,14 @@ module.exports = __webpack_require__.p + "images/阎锦婷.e7977a59..jpg";
 
 "use strict";
 module.exports = __webpack_require__.p + "images/陈子龙.fd429f39..jpg";
+
+/***/ }),
+
+/***/ 9810:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "images/陈建宇.148e3229..jpg";
 
 /***/ }),
 
