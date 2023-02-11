@@ -334,7 +334,7 @@ var total = [
         email: 'jiweicheng@hnu.edu.cn',
         desc: '2018级 湖南大学文学院 本科生',
         hobby: '篮球、写作、旅行',
-        to: '武汉大学攻读硕士',
+        to: '中国人民大学攻读硕士',
     },
     {
         name: '连婧',
