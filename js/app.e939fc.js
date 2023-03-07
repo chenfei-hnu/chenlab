@@ -51915,8 +51915,7 @@ function BasicLayout_BasicLayout() {
                 react.createElement("a", { href: "#" }, "@ICBN")),
             react.createElement("div", { className: components_BasicLayout.headerContent },
                 react.createElement("div", { className: components_BasicLayout.logoContent },
-                    react.createElement("p", { className: components_BasicLayout.logo }),
-                    react.createElement("p", { className: components_BasicLayout.name }, "\u9648\u98DE\u8BFE\u9898\u7EC4")),
+                    react.createElement("p", { className: components_BasicLayout.logo })),
                 react.createElement(BasicLayout_SiderMenu, null))),
         react.createElement(BasicLayout_Content, { className: components_BasicLayout.content },
             react.createElement("div", { className: "site-layout-background" }, verArr(routes) &&
@@ -52418,7 +52417,7 @@ function _unsupportedIterableToArray(o, minLen) {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "js/" + chunkId + "_chunk." + {"140":"1626312f","149":"31b6b79d","238":"91815a4c","307":"69b701ff","350":"e265aebf","426":"f7716c74","526":"4b90f4c4","732":"69083bc6","814":"2c38ddff"}[chunkId] + ".js";
+/******/ 			return "js/" + chunkId + "_chunk." + {"140":"1626312f","149":"31b6b79d","238":"91815a4c","307":"69b701ff","350":"acc1fa9b","426":"f7716c74","526":"4b90f4c4","732":"69083bc6","814":"2c38ddff"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	

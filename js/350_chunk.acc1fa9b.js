@@ -44,12 +44,9 @@ var _1 = __webpack_require__(6337);
 var _2 = __webpack_require__(1684);
 // EXTERNAL MODULE: ./src/asset/home/3.jpg
 var _3 = __webpack_require__(1780);
-// EXTERNAL MODULE: ./src/asset/home/4.jpg
-var _4 = __webpack_require__(3182);
 // EXTERNAL MODULE: ./node_modules/react-router-dom/esm/react-router-dom.js + 3 modules
 var react_router_dom = __webpack_require__(8149);
 ;// CONCATENATED MODULE: ./src/pages/Home/index.tsx
-
 
 
 
@@ -117,8 +114,7 @@ function Home_Home() {
                     react.createElement("img", { alt: "", src: _0 }),
                     react.createElement("img", { alt: "", src: _1 }),
                     react.createElement("img", { alt: "", src: _2 }),
-                    react.createElement("img", { alt: "", src: _3 }),
-                    react.createElement("img", { alt: "", src: _4 }))),
+                    react.createElement("img", { alt: "", src: _3 }))),
             react.createElement("div", { className: Home.right },
                 react.createElement("div", { className: Home.title },
                     react.createElement("h2", null, "\u65B0\u95FB\u52A8\u6001"),
@@ -159,35 +155,28 @@ var mapStateToProps = function (_a) {
 /***/ 2042:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/0.3c32f4a2..jpg";
+module.exports = __webpack_require__.p + "images/0.a5381653..jpg";
 
 /***/ }),
 
 /***/ 6337:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/1.a5381653..jpg";
+module.exports = __webpack_require__.p + "images/1.f2cd793a..jpg";
 
 /***/ }),
 
 /***/ 1684:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/2.f2cd793a..jpg";
+module.exports = __webpack_require__.p + "images/2.2a9faef2..jpg";
 
 /***/ }),
 
 /***/ 1780:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "images/3.2a9faef2..jpg";
-
-/***/ }),
-
-/***/ 3182:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "images/4.40a9712a..jpg";
+module.exports = __webpack_require__.p + "images/3.40a9712a..jpg";
 
 /***/ })
 
